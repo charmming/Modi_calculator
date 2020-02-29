@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{ 
+    background: black;
+}
+.content{
+    background-color: blue;
+    width: 425px;
+    margin: auto;
+    display: flex;
+}
+@media (max-width:300px){
+    .content{
+        width: 100px;
+        margin: auto;
+        background-color: blue;
+
+}
+.textInserted{
+    margin: 1px;
+    width: 100px;
+    height: 20px;
+    box-shadow: 0 0 2px rgb(83, 56, 56);
+}
+
+}
+.textInserted{
+    margin: 2px;
+    width: 417px;
+    height: 80px;
+    font-size: 30px;
+    box-shadow: 0 0 5px rgb(83, 56, 56);
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: rgb(185, 179, 179);
+    font-size: 30px;
+    box-shadow: 0 0 5px black;
+    margin: 2px;
+    }
+    .btn{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        background-color: rgb(185, 179, 179);
+        font-size: 30px;
+        box-shadow: 0 0 5px black;
+        margin: 2px;
+        }
+    .button:hover{
+        transform: scale(1.1);
+        color:hsl(241, 100%, 50%);
+        border-radius: 50%;
+        background:hsl(180, 42%, 95%);
+ }
+ .btn:hover{
+    color:hsl(241, 100%, 50%);
+    background:hsl(180, 42%, 95%); 
+ }
+#calculator_heading{
+    color: white;
+    font-family: OpenSans;
+    align-items: left;
+    position: relative;
+    animation-name: moveCalc;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    padding: 5px;
+
+}
+ @keyframes moveCalc{ 
+0%{
+    right: 5px;
+    font-family: Helvetica;
+    
+    
+    
+}
+100%{
+    right: -290px;
+    font-family: rochester;
+    
+}
+}
+    
+
