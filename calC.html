@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calC.css">
+    </head>
+<body>
+    <div class="content">
+        <div class =" form_container">
+ <form name="form" >
+    <h3 id="calculator_heading">Simple Calculator</h3>
+
+            <input class="textInserted" name="textInserted">
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" class="button" value="7" onclick="input(7)"></td>
+                    <td><input type="button" class="button" value="8" onclick="input(8)"></td>
+                    <td><input type="button" class="button" value="9" onclick="input(9)"></td>
+                    <td><input type="button" class="button" value="-" onclick="input('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="4" onclick="input(4)"></td>
+                    <td><input type="button" class= "button"value="5" onclick="input(5)"></td>
+                    <td><input type="button" class="button" value="6" onclick="input(6)"></td>
+                    <td><input type="button" class="button" value="/" onclick="input('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="1" onclick="input(1)"></td>
+                    <td><input type="button" class="button" value="2"onclick="input(2)"></td>
+                    <td><input type="button" class="button" value="3" onclick="input(3)"></td>
+                    <td><input type="button" class="button" value="x" onclick="input('*')"></td>
+                
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="C"  onclick="cancel()"></td>
+                    <td><input type="button"class="button" value="." onclick="input('.')"></td>
+                    <td><input type="button" class="button" value="+" onclick="input('+')"></td>
+                    <td><input type="button" class="button" value="=" onclick="equal()"></td>
+                   </tr>
+                   
+                <tr>
+                    <td colspan="4"><input type="button" class="btn" style="width: 418px;" value="Back" onclick="backward()"></td>
+                    
+                     </tr>
+                
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <script src="calC.js"></script> 
+        
+</body>
+</html>
